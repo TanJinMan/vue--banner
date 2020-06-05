@@ -1,0 +1,27 @@
+﻿@charset "utf-8";
+.swiper-container {
+	width:100%;
+}
+.swiper-wrapper {
+	margin-top:10px
+}
+.swiper-slide {
+	width:88%;
+	-webkit-transform-style:preserve-3d;
+	transform-style:preserve-3d
+}
+.swiper-slide .main-img {
+	width:95%;
+	margin:0 auto;
+	display:block;
+	border-radius: 10px
+}
+.swiper-pagination-bullet{
+	background: #fff;
+    opacity: 0.7;
+}
+.swiper-pagination-bullet-active {
+	background: #f79862;
+	opacity:1;
+}
+
